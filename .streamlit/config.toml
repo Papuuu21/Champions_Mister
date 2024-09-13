@@ -1,0 +1,7 @@
+
+[theme]
+primaryColor = "#1E90FF"       # Color primario (ej. botones, enlaces)
+backgroundColor = "#1E90FF"    # Color de fondo de la aplicación
+secondaryBackgroundColor = "#1E90FF"  # Color de fondo secundario (ej. barra lateral)
+textColor = "#FFFFFF"          # Color del texto principal
+font = "monospace"            # Tipo de fuente (opcional)

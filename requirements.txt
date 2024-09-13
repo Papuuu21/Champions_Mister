@@ -1,0 +1,7 @@
+
+pandas
+streamlit
+Jinja2
+reflex
+tqdm
+openpyxl
