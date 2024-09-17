@@ -3,10 +3,12 @@
 import pandas as pd
 import  streamlit as st
 
-c_ini_gA = pd.read_excel('data/clasificacion_inicial_A.xlsx')
-c_ini_gB = pd.read_excel('data/clasificacion_inicial_B.xlsx')
+c_ini_gA = pd.read_excel('data/clasf_jor1_gA.xlsx')
+c_ini_gB = pd.read_excel('data/clasf_jor1_gB.xlsx')
 calendario = pd.read_excel('data/calendario_grupos.xlsx')
-jor_actual = pd.read_excel('data/jornada_1.xlsx')
+jor_actual = pd.read_excel('data/jornada_2_inicial.xlsx')
+jor_pasada = pd.read_excel('data/jornada_1.xlsx')
+
 # Iniciar app con Streamlit
 st.title('Torneo Futbolístico')
 
@@ -24,6 +26,9 @@ st.dataframe(calendario)
 
 st.header('Jornada Actual')
 st.dataframe(jor_actual)
+
+st.header('Jornada Anterior')
+st.dataframe(jor_pasada)
 
 
 
