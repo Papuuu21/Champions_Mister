@@ -7,7 +7,7 @@ c_ini_gA = pd.read_excel('data/clasf_jor2_gA.xlsx')
 c_ini_gB = pd.read_excel('data/clasf_jor2_gB.xlsx')
 calendario = pd.read_excel('data/calendario_grupos.xlsx')
 jor_actual = pd.read_excel('data/jornada_3_inicial.xlsx')
-jor_pasada = pd.read_excel('data/jornada_2.xlsx')
+jor_pasada = pd.read_excel('data/j2_actualizada.xlsx')
 
 # Iniciar app con Streamlit
 st.title('Torneo Futbolístico')
