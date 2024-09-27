@@ -3,18 +3,18 @@
 import pandas as pd
 import  streamlit as st
 
-c_ini_gA = pd.read_excel('data/clasf_jor2_gA.xlsx')
-c_ini_gB = pd.read_excel('data/clasf_jor2_gB.xlsx')
+c_ini_gA = pd.read_excel('data/clasf_jor3_gA.xlsx')
+c_ini_gB = pd.read_excel('data/clasf_jor3_gB.xlsx')
 calendario = pd.read_excel('data/calendario_grupos.xlsx')
-jor_actual = pd.read_excel('data/jornada_3_inicial.xlsx')
-jor_pasada = pd.read_excel('data/j2_actualizada.xlsx')
+jor_actual = pd.read_excel('data/jornada_4_inicial.xlsx')
+jor_pasada = pd.read_excel('data/j3_actualizada.xlsx')
 
 # Iniciar app con Streamlit
 st.title('Torneo Futbolístico')
 
 st.header('----Fase de Grupos----')
 
-st.subheader('Clasificación Inicial')
+st.subheader('Clasificación Jornada 3')
 st.write('**Grupo A**')
 st.dataframe(c_ini_gA)
 
