@@ -14,21 +14,23 @@ st.title('Torneo Futbolístico')
 
 st.header('----Fase de Grupos----')
 
-st.subheader('Clasificación Jornada 3')
+st.subheader('Clasificación Jornada 4')
 st.write('**Grupo A**')
 st.dataframe(c_ini_gA)
 
 st.write('**Grupo B**')
 st.dataframe(c_ini_gB)
 
-st.header('Calendario General')
-st.dataframe(calendario)
-
 st.header('Jornada Actual')
 st.dataframe(jor_actual)
 
 st.header('Jornada Anterior')
 st.dataframe(jor_pasada)
+
+st.header('Calendario General')
+st.dataframe(calendario)
+
+
 
 
 
