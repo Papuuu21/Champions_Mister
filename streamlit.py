@@ -3,11 +3,11 @@
 import pandas as pd
 import  streamlit as st
 
-c_ini_gA = pd.read_excel('data/clasf_jor4_gA.xlsx')
-c_ini_gB = pd.read_excel('data/clasf_jor4_gB.xlsx')
+c_ini_gA = pd.read_excel('data/clasf_jor5_gA.xlsx')
+c_ini_gB = pd.read_excel('data/clasf_jor5_gB.xlsx')
 calendario = pd.read_excel('data/calendario_grupos.xlsx')
-jor_actual = pd.read_excel('data/jornada_5_inicial.xlsx')
-jor_pasada = pd.read_excel('data/j4_actualizada.xlsx')
+jor_actual = pd.read_excel('data/jornada_6_inicial.xlsx')
+jor_pasada = pd.read_excel('data/j5_actualizada.xlsx')
 
 # Iniciar app con Streamlit
 st.title('Torneo Futbolístico')
