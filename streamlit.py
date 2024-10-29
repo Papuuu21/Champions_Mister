@@ -14,7 +14,7 @@ st.title('Torneo Futbolístico')
 
 st.header('----Fase de Grupos----')
 
-st.subheader('Clasificación Jornada 4')
+st.subheader('Clasificación Jornada 7')
 st.write('**Grupo A**')
 st.dataframe(c_ini_gA)
 
