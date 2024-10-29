@@ -14,7 +14,8 @@ st.title('Torneo Futbolístico')
 
 from PIL import Image
 
-image = Image.open('Sorteo_posiciones_cuartos.jpg')
+#* Cargar y mostrar la imagen al inicio
+image = Image.open('data/Sorteo_posiciones_cuartos.jpg')
 st.image(image, caption='Sorteo fase final')
 
 st.header('----Fase de Grupos----')
