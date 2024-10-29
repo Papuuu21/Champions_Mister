@@ -12,6 +12,11 @@ jor_pasada = pd.read_excel('data/j7_actualizada.xlsx')
 # Iniciar app con Streamlit
 st.title('Torneo Futbolístico')
 
+from PIL import Image
+
+image = Image.open('Sorteo_posiciones_cuartos.jpg')
+st.image(image, caption='Sorteo fase final')
+
 st.header('----Fase de Grupos----')
 
 st.subheader('Clasificación Jornada 7')
