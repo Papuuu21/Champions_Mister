@@ -47,14 +47,14 @@ def completar_resultados2(df, resultados):
     mapeo = {
         'Palop': ('VISITANTE', 'RTDO V'),
         'Fale': ('VISITANTE', 'RTDO V'),
-        'Lope': ('VISITANTE', 'RTDO V'),
+        'Lope': ('LOCAL', 'RTDO L'),
         'Tony': ('LOCAL', 'RTDO L'),
-        'Ruso': ('LOCAL', 'RTDO L'),
+        'Ruso': ('VISITANTE', 'RTDO V'),
         'Kero': ('LOCAL', 'RTDO L'),
-        'Coquina': ('VISITANTE.1', 'RTDO V.1'),
+        'Coquina': ('LOCAL.1', 'RTDO L.1'),
         'Papu': ('LOCAL.1', 'RTDO L.1'),
         'Kike': ('LOCAL.1', 'RTDO L.1'),
-        'Gonzo': ('LOCAL.1', 'RTDO L.1'),
+        'Gonzo': ('VISITANTE.1', 'RTDO V.1'),
         'Puche': ('VISITANTE.1', 'RTDO V.1'),
         'Armada': ('VISITANTE.1', 'RTDO V.1'),
     }
