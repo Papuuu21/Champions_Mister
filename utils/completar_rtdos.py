@@ -46,17 +46,17 @@ def completar_resultados2(df, resultados):
     # Mapeo de jugadores a columnas y condiciones
     mapeo = {
         'Palop': ('VISITANTE', 'RTDO V'),
-        'Fale': ('VISITANTE', 'RTDO V'),
+        'Fale': ('LOCAL', 'RTDO L'),
         'Lope': ('LOCAL', 'RTDO L'),
-        'Tony': ('LOCAL', 'RTDO L'),
+        'Tony': ('VISITANTE', 'RTDO V'),
         'Ruso': ('VISITANTE', 'RTDO V'),
         'Kero': ('LOCAL', 'RTDO L'),
         'Coquina': ('LOCAL.1', 'RTDO L.1'),
-        'Papu': ('LOCAL.1', 'RTDO L.1'),
+        'Papu': ('VISITANTE.1', 'RTDO V.1'),
         'Kike': ('LOCAL.1', 'RTDO L.1'),
         'Gonzo': ('VISITANTE.1', 'RTDO V.1'),
         'Puche': ('VISITANTE.1', 'RTDO V.1'),
-        'Armada': ('VISITANTE.1', 'RTDO V.1'),
+        'Armada': ('LOCAL.1', 'RTDO L.1'),
     }
     
     for jugador, resultado in resultados.items():
