@@ -15,8 +15,8 @@ st.title('CHAMPIONS MISTER 🏆⚽')
 
 st.header('----FASE FINAL----')
 #* Cargar y mostrar la imagen al inicio
-image = Image.open('data/Cuartos_CUADRO.png')
-st.image(image, caption='Sorteo fase final')
+image = Image.open('data/cuartos.jpg')
+st.image(image, caption='Cuartos')
 
 st.header('----Fase de Grupos----')
 st.subheader('Clasificación Final Grupos')
