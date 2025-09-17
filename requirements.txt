@@ -5,3 +5,4 @@ Jinja2
 reflex
 tqdm
 openpyxl
+ipywidgets
