@@ -25,7 +25,7 @@ st.dataframe(c_ini_gA)
 st.write('**Grupo B**')
 st.dataframe(c_ini_gB)
 
-st.header('Resultados Cuartos de final')
+st.header('Resultados Jornada 1')
 st.dataframe(jor_actual)
 
 #st.header('Jornada Anterior')
